@@ -17,7 +17,6 @@ const to_do = require('./controllers/to_do')
 app.use('/to_do', to_do)
 
 
-
 app.use(express.static(path.join(__dirname, 'public')))
 
 app.get('/', function(req, res){
